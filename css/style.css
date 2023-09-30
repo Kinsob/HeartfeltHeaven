@@ -1,0 +1,43 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Mooli", sans-serif;
+  font-size: 1.6rem;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  background-color: #333;
+  height: 100vh;
+  width: 15rem;
+  z-index: 100;
+}
+nav a {
+  font-weight: bold;
+  font-size: 2rem;
+  /* padding: 30px 20px; */
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #565656;
+}
+nav a :hover {
+  color: azure;
+}
+
+nav i {
+  padding: 10px;
+}/*# sourceMappingURL=style.css.map */
