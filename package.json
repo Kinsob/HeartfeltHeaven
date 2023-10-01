@@ -1,5 +1,5 @@
 {
-	"name": "HeartfeltHeaven",
+	"name": "HeartfeltHaven",
 	"version": "1.0.0",
 	"description": "",
 	"main": "index.js",
@@ -7,7 +7,7 @@
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"keywords": [],
-	"author": "Dawid Walczak",
+	"author": "Dawid Walczak and Kinga Sobolewska",
 	"license": "ISC",
 	"devDependencies": {
 		"@babel/core": "^7.21.4",
