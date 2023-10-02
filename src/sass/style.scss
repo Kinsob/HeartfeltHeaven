@@ -16,6 +16,8 @@ body {
 	font-size: 1.6rem;
 }
 
+// NAVIGATION
+
 .nav-items {
 	display: flex;
 	flex-direction: column;
@@ -40,10 +42,13 @@ body {
         }
 	}
 
+    
 	i {
 		padding: 10px;
 	}
 }
+
+// FOOTER
 
 .footer {
 	padding: 2em 1em;
@@ -52,4 +57,5 @@ body {
 	text-shadow:2px 1px black;
 	text-align: center;
 	font-weight: bold;
+
 }
