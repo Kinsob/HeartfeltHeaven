@@ -1,7 +1,7 @@
-const logInBtn = document.querySelector('.btn-connexion');
-const logInForm = document.querySelector('.connexion');
-const registerBtn = document.querySelector('.btn-enregistrer');
-const registerForm = document.querySelector('.enregistrer');
+const logInBtn = document.querySelector('.menu__btn-login');
+const logInForm = document.querySelector('.login');
+const registerBtn = document.querySelector('.menu__btn-register');
+const registerForm = document.querySelector('.register');
 
 const handleLogIn = () => {
 	logInBtn.classList.remove('active');

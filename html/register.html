@@ -12,71 +12,69 @@
 
     <div class="content">
         <div class="container">
-            <img class="bg-img" src="https://mariongrandvincent.github.io/HTML-Personal-website/img-codePen/bg.jpg"
-                alt="">
+            <div class="container__bg_shadow"></div>
             <div class="menu">
-                <a href="#connexion" class="btn-connexion ">
+                <a href="#login" class="menu__btn-login ">
                     <h2>Zaloguj się</h2>
                 </a>
-                <a href="#enregistrer" class="btn-enregistrer active">
+                <a href="#register" class="menu__btn-register active">
                     <h2>Zarejestruj się</h2>
                 </a>
             </div>
-            <div class="connexion">
-                <div class="contact-form">
-                    <label>Login</label>
-                    <input placeholder="" type="text">
+            <div class="login">
+                <div class="login__form">
+                    <label class="form_text">Login</label>
+                    <input type="text">
 
-                    <label>Hasło</label>
-                    <input placeholder="" type="text">
+                    <label class="form_text">Hasło</label>
+                    <input type="password">
 
                     <div class="check">
-                        <label>
-                            <input id="check" type="checkbox" class="checkbox">
+                        <input id="check" type="checkbox" class="checkbox">
+                        <div class="checkbox_box">
                             <svg xmlns="http://www.w3.org/2000/svg" width="26px" height="23px">
                                 <path class="path-back"
                                     d="M1.5,6.021V2.451C1.5,2.009,1.646,1.5,2.3,1.5h18.4c0.442,0,0.8,0.358,0.8,0.801v18.398c0,0.442-0.357,0.801-0.8,0.801H2.3c-0.442,0-0.8-0.358-0.8-0.801V6" />
                                 <path class="path-moving"
                                     d="M24.192,3.813L11.818,16.188L1.5,6.021V2.451C1.5,2.009,1.646,1.5,2.3,1.5h18.4c0.442,0,0.8,0.358,0.8,0.801v18.398c0,0.442-0.357,0.801-0.8,0.801H2.3c-0.442,0-0.8-0.358-0.8-0.801V6" />
                             </svg>
-                        </label>
+                        </div>
                         <h3>Nie wylogowywuj mnie</h3>
                     </div>
 
                     <input class="submit" value="ZALOGUJ SIĘ" type="submit">
                 </div>
 
-                <hr>
+                <div class="login__form__line"></div>
                 <!-- LINK! -->
                 <a href="..." target="_blank">
                     <h4>Zapomniałeś hasła?</h4>
                 </a>
             </div>
 
-            <div class="enregistrer active-section">
-                <div class="contact-form">
-                    <label>Login</label>
-                    <input placeholder="" type="text">
+            <div class="register active-section">
+                <div class="register_form">
+                    <label class="form_text">Login</label>
+                    <input type="text">
 
-                    <label>E-mail</label>
-                    <input placeholder="" type="text">
+                    <label class="form_text">E-mail</label>
+                    <input type="email">
 
-                    <label>Hasło</label>
-                    <input placeholder="" type="text">
+                    <label class="form_text">Hasło</label>
+                    <input type="password">
 
-                    <label>Powtórz hasło</label>
-                    <input placeholder="" type="text">
+                    <label class="form_text">Powtórz hasło</label>
+                    <input type="password">
 
                     <div class="check">
-                        <label>
-                            <input id="check" type="checkbox" class="checkbox">
+                        <div class="checkbox_box">
                             <svg xmlns="http://www.w3.org/2000/svg" width="26px" height="23px">
                                 <path class="path-back"
                                     d="M1.5,6.021V2.451C1.5,2.009,1.646,1.5,2.3,1.5h18.4c0.442,0,0.8,0.358,0.8,0.801v18.398c0,0.442-0.357,0.801-0.8,0.801H2.3c-0.442,0-0.8-0.358-0.8-0.801V6" />
                                 <path class="path-moving"
                                     d="M24.192,3.813L11.818,16.188L1.5,6.021V2.451C1.5,2.009,1.646,1.5,2.3,1.5h18.4c0.442,0,0.8,0.358,0.8,0.801v18.398c0,0.442-0.357,0.801-0.8,0.801H2.3c-0.442,0-0.8-0.358-0.8-0.801V6" />
                             </svg>
-                        </label>
+                        </div>
                         <h3>Zgadzam się ...</h3>
                     </div>
 
@@ -84,7 +82,6 @@
 
                 </div>
             </div>
-
         </div>
 
     </div>
